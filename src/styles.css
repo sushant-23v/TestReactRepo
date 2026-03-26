@@ -19,6 +19,9 @@ body {
   background: var(--cream);
 }
 
+/* Utilities */
+.muted { color: var(--muted); }
+
 /* Layout */
 .container {
   max-width: 1100px;

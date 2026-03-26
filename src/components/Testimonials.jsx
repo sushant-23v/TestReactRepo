@@ -20,7 +20,7 @@ export default function Testimonials() {
       <div className="testimonial-grid">
         {quotes.map((q) => (
           <figure key={q.name} className="card">
-            <div className="stars" aria-hidden>★★★★★</div>
+            <div className="stars" aria-hidden="true">★★★★★</div>
             <blockquote>“{q.quote}”</blockquote>
             <figcaption>— {q.name}</figcaption>
           </figure>
