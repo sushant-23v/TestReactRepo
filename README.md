@@ -1,9 +1,8 @@
 # TestReactRepo
 
 A modern, responsive React landing page for a coffee shop ("Brew & Bean"), built with Vite.
-<!-- add comments -->
+<!-- test -->
 ## Quick Start
-
 ```bash
 npm install
 
