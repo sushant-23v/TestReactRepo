@@ -5,19 +5,26 @@ import About from './components/About.jsx'
 import Testimonials from './components/Testimonials.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
-// App.tsx
+import Promotions from './components/Promotions.jsx' // Import the new Promotions component
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Import necessary routing components
+
 export default function App() {
   return (
-    <>
+    <Router>
       <Header />
       <main>
         <Hero />
         <Menu />
-        <About />
-        <Testimonials />
-        <Contact />
+        <Switch>
+          <Route path="/promotions" component={Promotions} /> {/* Add route for Promotions */}
+          <Route path="/" exact>
+            <About />
+            <Testimonials />
+            <Contact />
+          </Route>
+        </Switch>
       </main>
       <Footer />
-    </>
+    </Router>
   )
 }
