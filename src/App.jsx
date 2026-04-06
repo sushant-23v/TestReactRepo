@@ -5,7 +5,7 @@ import About from './components/About.jsx'
 import Testimonials from './components/Testimonials.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
-
+// App.tsx
 export default function App() {
   return (
     <>
