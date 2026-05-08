@@ -1,0 +1,42 @@
+## End-to-end usage
+
+- Follow the steps above to customize ESLint rules for TypeScript in your project.
+- When explaining changes to teammates, point to the example sections in this README to illustrate how to comment code blocks effectively.
+
+### Quick reference
+- Inline comment: // This is an inline comment
+- Block comment: /* This is a block comment */
+
+### Notes
+- Remember to keep comments concise and focused on intent rather than restating the obvious.
+- Avoid over-commenting; prefer self-explanatory variable and function names plus concise commentary where necessary.
+
+### Versioning and compatibility
+- This README uses common JS/TS syntax blocks to illustrate ESLint configuration and TypeScript usage inside a Vite + React setup.
+
+### Troubleshooting
+- If comments cause syntax highlighting issues in previews, ensure code blocks are properly closed and the language specifier matches the code language.
+
+### File changes
+- README.md: Added a dedicated section on adding comments to code examples, including inline and block comments with practical examples.
+
+### Related links
+- ESLint: https://eslint.org/
+- TypeScript: https://www.typescriptlang.org/
+- Vite: https://vitejs.dev/
+- React: https://reactjs.org/
+
+### Final reminder
+
+This README now includes a clear guide for adding comments to code examples to help readers understand the intent behind configuration snippets and sample code.
+
+---
+
+## About this project
+
+This repository contains a React + TypeScript + Vite template with ESLint configuration and related tooling tailored for a modern frontend workflow.
+
+
+## Contributor guidelines
+- Please follow the existing formatting style when adding sections or examples.
+- When introducing new topics, provide minimal but practical examples to avoid overwhelming readers.
