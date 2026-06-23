@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="about" className="about">
       <div className="container">
-        <h2>About.... </h2>
+        <h2>About....##.. </h2>
         <p>
           At Brew & Bean, we believe great coffee brings people together. Our
           baristas roast and brew with care, highlighting nuanced flavors from
